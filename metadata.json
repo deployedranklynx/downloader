@@ -1,0 +1,6 @@
+{
+  "name": "Universal Fast Download Manager",
+  "description": "High-speed multi-threaded download manager and media downloader supporting YouTube, Instagram, TikTok, Facebook, LinkedIn, Threads, and direct heavy files with platform-adaptive themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

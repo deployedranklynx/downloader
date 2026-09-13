@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "Universal Fast Download Manager",
+  "short_name": "FastDownloader",
+  "description": "High-speed multi-threaded download manager and media downloader supporting YouTube, Instagram, TikTok, Facebook, LinkedIn, Threads, and direct heavy files.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090D16",
+  "theme_color": "#090D16",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

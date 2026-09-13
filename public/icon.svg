@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#0F172A"/>
+  <rect x="24" y="24" width="464" height="464" rx="104" stroke="url(#grad)" stroke-width="8" stroke-opacity="0.5"/>
+  <circle cx="256" cy="256" r="180" fill="url(#glow)"/>
+  <!-- Speed lines -->
+  <path d="M120 180 H 180" stroke="#38BDF8" stroke-width="12" stroke-linecap="round" opacity="0.6"/>
+  <path d="M90 256 H 170" stroke="#38BDF8" stroke-width="14" stroke-linecap="round"/>
+  <path d="M130 332 H 190" stroke="#38BDF8" stroke-width="12" stroke-linecap="round" opacity="0.6"/>
+  <!-- Download arrow -->
+  <path d="M256 120 V 310" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round"/>
+  <path d="M186 240 L 256 310 L 326 240" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Base tray -->
+  <path d="M170 380 H 342" stroke="url(#grad)" stroke-width="28" stroke-linecap="round"/>
+  <!-- Multi-thread dots -->
+  <circle cx="360" cy="180" r="10" fill="#38BDF8"/>
+  <circle cx="390" cy="240" r="10" fill="#818CF8"/>
+  <circle cx="370" cy="300" r="10" fill="#EC4899"/>
+</svg>
