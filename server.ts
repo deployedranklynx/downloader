@@ -304,8 +304,13 @@ app.get('/api/download/chunk', (req, res) => {
 });
 
 async function startServer() {
-  // Vite middleware setup
-  if (process.env.NODE_ENV !== 'production') {
+  const isProduction =
+    process.env.NODE_ENV === 'production' ||
+    (typeof __filename !== 'undefined' && __filename.endsWith('.cjs')) ||
+    !process.argv[1]?.endsWith('server.ts');
+
+  // Vite middleware setup for dev, static serving for production
+  if (!isProduction) {
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa',
